@@ -220,7 +220,7 @@ static int __devinit sht21_probe(struct i2c_client *client,
 		goto fail_remove_sysfs;
 	}
 
-	dev_info(&client->dev, "initialized\n");
+	dev_info(&client->dev, "sht21 initialized\n");
 
 	return 0;
 
