@@ -941,6 +941,9 @@ static struct i2c_board_info smdk4x12_i2c_devs0[] __initdata = {
 		.platform_data = &wm8960_pdata,
 	},
 #endif
+	{
+		I2C_BOARD_INFO("isl29020", 0x44),
+	},
 #if 0
 #ifdef CONFIG_REGULATOR_S5M8767
 	{
